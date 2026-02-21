@@ -7,4 +7,4 @@ Tasks: Initialize @index.html with Tailwind CSS.
 Status: Completed 
 Verification: Site Succesfuly renders with high-impact typography and is pushed to the main branch. 
 
-![Sprint 1 Verification](../../assets/sprint-1-verify.png)
+![Sprint 1 Verification](../../assets/Sprint-1-verify.png)
