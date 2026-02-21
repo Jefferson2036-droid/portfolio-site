@@ -22,13 +22,13 @@
         -Add navigation links 
         -  Ensure the project archive is clearly categorized into Technical, Professional Experience, and Academic sections as specified.
 
-![Sprint 2 Second Draft](../../assets/Sprint-2-SeconddDraft.png)
+![Sprint 2 Second Draft](../../assets/sprint-2-second.png)
 
 **Final Changes** 
     - Decided to implement the increase in font size, links to documentation, improvement in white spaces, and navigations links. I asked copilot to fix it impementing the top 5 improvements. There was definetly a lot of fixing in that version, such as: making sure that my categories were correctly separated. Also, ensuring that something like my Dick's sporting goods did not have a 'code' link if it didnt need one. I also decided to not leave to much white spaces. 
 
-![Sprint 2 First Draft](../../assets/Sprint-2-FinalDraft-p1.png)
-![Sprint 2 First Draft](../../assets/Sprint-2-FinalDraft-p2.png)
+![Sprint 2 First Draft](../../assets/sprint-2-final-p1.png)
+![Sprint 2 First Draft](../../assets/sprint-2-final-p2.png)
 
 **Status**: Completed
 **Verification**: Succesfully added a structured frip for projects using the ledger format. 
