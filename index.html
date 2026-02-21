@@ -12,36 +12,104 @@
 </head>
 <body class="bg-white text-black antialiased">
 
-    <main class="max-w-7xl mx-auto px-6 py-20 grid grid-cols-1 md:grid-cols-12 gap-8">
+    <main class="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-12 gap-8">
         
-        <header class="md:col-span-12 mb-20">
-            <h1 class="text-6xl md:text-9xl font-black tracking-tighter uppercase leading-none">
+        <!-- Header Section -->
+        <header class="md:col-span-12 mb-12">
+            <h1 class="text-7xl md:text-9xl font-black tracking-tighter uppercase leading-none">
                 Jefferson<br>Rodas
             </h1>
-            <div class="mt-8 flex flex-col md:flex-row md:items-center gap-4 text-sm font-mono uppercase tracking-widest text-gray-500">
+            <nav class="mt-6 flex flex-col md:flex-row md:items-center gap-4 text-sm font-mono uppercase tracking-widest text-gray-500">
+                <a href="#projects" class="hover:text-black">Projects</a>
+                <a href="#about" class="hover:text-black">About</a>
+            </nav>
+            <div class="mt-4 flex flex-col md:flex-row md:items-center gap-4 text-sm font-mono uppercase tracking-widest text-gray-500">
                 <span>[ Location: Plainfield, NJ ]</span>
                 <span>[ Status: NJIT BIS Student ]</span>
                 <span class="text-[#FF4F00]">[ Strategic Blueprint: Active ]</span>
             </div>
         </header>
 
-        <section class="md:col-span-8 border-t-4 border-black pt-8">
-            <h2 class="text-3xl md:text-5xl font-bold leading-tight mb-6">
+        <!-- Hero Section -->
+        <section class="md:col-span-8 border-t-4 border-black pt-4">
+            <h2 class="text-4xl md:text-6xl font-bold leading-tight mb-6">
                 Bridging Data Insights with Operational Strategy to Drive Excellence.
             </h2>
-            <p class="text-xl text-gray-700 max-w-2xl">
+            <p class="text-2xl text-gray-700 max-w-3xl">
                 Specializing in process optimization and information hierarchy. I transform raw data into actionable business logic.
             </p>
         </section>
 
-        <aside class="md:col-span-4 border-t-4 border-black pt-8 flex flex-col gap-4">
-            <a href="#" class="bg-[#FF4F00] text-white py-4 px-6 text-center font-bold uppercase hover:bg-black transition-colors">
+        <aside class="md:col-span-4 border-t-4 border-black pt-4 flex flex-col gap-4">
+            <a href="#projects" class="bg-[#FF4F00] text-white py-4 px-6 text-center font-bold uppercase hover:bg-black transition-colors">
                 View Project Archive
             </a>
-            <a href="#" class="border-2 border-black py-4 px-6 text-center font-bold uppercase hover:bg-gray-100 transition-colors">
+            <a href="https://www.linkedin.com/in/jeffersonrodas" class="border-2 border-black py-4 px-6 text-center font-bold uppercase hover:bg-gray-100 transition-colors">
                 LinkedIn
             </a>
         </aside>
+
+        <!-- Project Archive Section -->
+        <section id="projects" class="md:col-span-12 mt-12 border-t-8 border-black pt-8">
+            <h3 class="text-5xl font-black uppercase tracking-tighter mb-8"></h3>
+            
+            <!-- Professional Experience -->
+            <div class="mb-12">
+                <h4 class="text-4xl font-bold uppercase mb-6">Professional Experience</h4>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <article class="flex flex-col">
+                        <span class="font-mono text-sm text-gray-400 mb-2 border-b border-gray-200 pb-2">[ PROJECT: OPERATIONS // Dick's Sporting Goods ]</span>
+                        <h5 class="text-3xl font-black uppercase mb-4">Inventory Flow & Logistics</h5>
+                        <div class="space-y-4 text-lg border-l-4 border-black pl-4">
+                            <p><strong class="uppercase text-sm font-mono text-gray-500 block mb-1">Operational Context</strong> 
+                               Managed high-volume inventory cycles within a fast-paced retail environment, focusing on the bridge between warehouse logistics and floor availability.</p>
+                            <p><strong class="uppercase text-sm font-mono text-gray-500 block mb-1">Strategic Action</strong> 
+                               Implemented streamlined stock-processing workflows to reduce "time-to-floor" for high-demand assets and maintained real-time inventory accuracy.</p>
+                            <p><strong class="uppercase text-sm font-mono text-gray-500 block mb-1">Measured Impact</strong> 
+                               Achieved consistent operational uptime and optimized product lifecycle management, ensuring customer fulfillment targets were met.</p>
+                            </div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Academic Projects -->
+            <div>
+                <h4 class="text-4xl font-bold uppercase mb-6">Academic</h4>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <article class="flex flex-col">
+                        <span class="font-mono text-sm text-gray-400 mb-2 border-b border-gray-200 pb-2">[ PROJECT: FINANCE // ANALYSIS ]</span>
+                        <h5 class="text-3xl font-black uppercase mb-4">Global Macroeconomic Modeling</h5>
+                        <div class="space-y-4 text-lg border-l-4 border-black pl-4">
+                            <p><strong class="uppercase text-sm font-mono text-gray-500 block mb-1">Operational Context</strong> 
+                               Conducted a comparative analysis of the world’s five largest economies, focusing on the interplay between fiscal policy and GDP growth.</p>
+                            <p><strong class="uppercase text-sm font-mono text-gray-500 block mb-1">Strategic Action</strong> 
+                               Synthesized complex datasets including bond market trends and inflation indicators to build a cross-market correlation model.</p>
+                            <p><strong class="uppercase text-sm font-mono text-gray-500 block mb-1">Measured Impact</strong> 
+                               Developed a comprehensive reporting structure that identified key long-term economic shifts and geopolitical risks.</p>
+                        </div>
+                        <div class="flex gap-4 font-mono text-sm uppercase text-gray-400">
+                            <a href="#" class="text-[#FF4F00] underline">View Report</a>
+                        </div>
+                    </article>
+
+                    <article class="flex flex-col">
+                        <span class="font-mono text-sm text-gray-400 mb-2 border-b border-gray-200 pb-2">[ PROJECT: ACADEMIC // RESEARCH ]</span>
+                        <h5 class="text-3xl font-black uppercase mb-4">Data-Driven Decision Making</h5>
+                        <div class="space-y-4 text-lg border-l-4 border-black pl-4">
+                            <p><strong class="uppercase text-sm font-mono text-gray-500 block mb-1">Research Focus</strong> 
+                               Explored the impact of data visualization on decision-making processes in organizational leadership.</p>
+                            <p><strong class="uppercase text-sm font-mono text-gray-500 block mb-1">Key Findings</strong> 
+                               Identified critical factors that influence decision-making efficiency and developed a framework for effective data presentation.</p>
+                        </div>
+                        <div class="flex gap-4 font-mono text-sm uppercase text-gray-400">
+                            <a href="#" class="text-[#FF4F00] underline">View Paper</a>
+                            <a href="#" class="text-[#FF4F00] underline">View Presentation</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+        </section>
 
     </main>
 
