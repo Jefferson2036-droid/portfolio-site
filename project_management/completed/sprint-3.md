@@ -19,8 +19,9 @@
 
 - I decided to change the term "ledger" to a more general term like "Strategic work and analysis". The term "ledger" is a very specific term that is mostly used in accounting. I decided to not add the techincal category because I felt it was the same as "academic". I decided not to include process receipts. The only change that I accepted were the white spaces. I felt like like white spaces could be optimized to make the page look cleaner. 
 
-![Sprint 3 results1](../../assets/Sprint-1-verify.png)
-![Sprint 3 results2](../../assets/Sprint-1-verify.png)
+![Sprint 3 results1](../../assets/sprint-3-p1.png)
+![Sprint 3 results2](../../assets/sprint-3-p2.png)
+![Sprint 3 results3](../../assets/sprint-3-p3.png)
 
 ### Acceptance Criteria
 * Clicking the Hero CTA successfully jumps to the Project Archive.
