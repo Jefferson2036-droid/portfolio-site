@@ -8,20 +8,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Inter', sans-serif; }
+        html { scroll-behavior: smooth; }
+
+        /* Sprint 3: Signal Color (International Orange) */
+        a:hover, button:hover {
+            color: #FF4F00 !important;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .btn-primary:hover {
+            background-color: #FF4F00 !important;
+            border-color: #FF4F00 !important;
+        }
     </style>
 </head>
 <body class="bg-white text-black antialiased">
 
     <main class="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-12 gap-8">
         
-        <!-- Header Section -->
         <header class="md:col-span-12 mb-12">
             <h1 class="text-7xl md:text-9xl font-black tracking-tighter uppercase leading-none">
                 Jefferson<br>Rodas
             </h1>
             <nav class="mt-6 flex flex-col md:flex-row md:items-center gap-4 text-sm font-mono uppercase tracking-widest text-gray-500">
-                <a href="#projects" class="hover:text-black">Projects</a>
-                <a href="#about" class="hover:text-black">About</a>
+                <div class="flex flex-wrap gap-2 items-center">
+                    <span class="text-black font-bold">Contact:</span>
+                    <a href="mailto:rodas5@outlook.com" class="hover:text-[#FF4F00] transition-colors">rodas5@outlook.com</a>
+                    <span class="hidden md:inline">/</span>
+                    <a href="tel:908-342-9797" class="hover:text-[#FF4F00] transition-colors">908.342.9797</a>
+                </div>
             </nav>
             <div class="mt-4 flex flex-col md:flex-row md:items-center gap-4 text-sm font-mono uppercase tracking-widest text-gray-500">
                 <span>[ Location: Plainfield, NJ ]</span>
@@ -30,7 +45,6 @@
             </div>
         </header>
 
-        <!-- Hero Section -->
         <section class="md:col-span-8 border-t-4 border-black pt-4">
             <h2 class="text-4xl md:text-6xl font-bold leading-tight mb-6">
                 Bridging Data Insights with Operational Strategy to Drive Excellence.
@@ -42,18 +56,16 @@
 
         <aside class="md:col-span-4 border-t-4 border-black pt-4 flex flex-col gap-4">
             <a href="#projects" class="bg-[#FF4F00] text-white py-4 px-6 text-center font-bold uppercase hover:bg-black transition-colors">
-                View Project Archive
+                Professional Portfolio
             </a>
-            <a href="https://www.linkedin.com/in/jeffersonrodas" class="border-2 border-black py-4 px-6 text-center font-bold uppercase hover:bg-gray-100 transition-colors">
+            <a href="https://www.linkedin.com/in/jefferson-rodas" target="_blank" class="border-2 border-black py-4 px-6 text-center font-bold uppercase hover:bg-gray-100 transition-colors">
                 LinkedIn
             </a>
         </aside>
 
-        <!-- Project Archive Section -->
         <section id="projects" class="md:col-span-12 mt-12 border-t-8 border-black pt-8">
-            <h3 class="text-5xl font-black uppercase tracking-tighter mb-8"></h3>
+            <h3 class="text-5xl font-black uppercase tracking-tighter mb-8">Strategic Work and Analysis</h3>
             
-            <!-- Professional Experience -->
             <div class="mb-12">
                 <h4 class="text-4xl font-bold uppercase mb-6">Professional Experience</h4>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -72,7 +84,6 @@
                 </div>
             </div>
 
-            <!-- Academic Projects -->
             <div>
                 <h4 class="text-4xl font-bold uppercase mb-6">Academic</h4>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -87,8 +98,8 @@
                             <p><strong class="uppercase text-sm font-mono text-gray-500 block mb-1">Measured Impact</strong> 
                                Developed a comprehensive reporting structure that identified key long-term economic shifts and geopolitical risks.</p>
                         </div>
-                        <div class="flex gap-4 font-mono text-sm uppercase text-gray-400">
-                            <a href="#" class="text-[#FF4F00] underline">View Report</a>
+                        <div class="mt-4 flex gap-4 font-mono text-sm uppercase">
+                            <a href="assets/financial-markets-report.pdf" target="_blank" class="text-[#FF4F00] underline font-bold">View Report</a>
                         </div>
                     </article>
 
@@ -101,15 +112,20 @@
                             <p><strong class="uppercase text-sm font-mono text-gray-500 block mb-1">Key Findings</strong> 
                                Identified critical factors that influence decision-making efficiency and developed a framework for effective data presentation.</p>
                         </div>
-                        <div class="flex gap-4 font-mono text-sm uppercase text-gray-400">
-                            <a href="#" class="text-[#FF4F00] underline">View Paper</a>
-                            <a href="#" class="text-[#FF4F00] underline">View Presentation</a>
+                        <div class="mt-4 flex gap-4 font-mono text-sm uppercase">
+                            <a href="assets/Your_Paper.pdf" target="_blank" class="text-[#FF4F00] underline">View Paper</a>
+                            <a href="assets/Your_Presentation.pdf" target="_blank" class="text-[#FF4F00] underline">View Presentation</a>
                         </div>
                     </article>
                 </div>
             </div>
-
         </section>
+
+        <footer class="md:col-span-12 mt-24 border-t border-gray-200 pt-8 flex flex-col md:flex-row justify-between items-center text-[10px] font-mono uppercase tracking-widest text-gray-400">
+            <span>&copy; 2026 Jefferson Rodas // NJIT Business Information Systems</span>
+            <span>Site Status: Production 1.0 // Verified Responsive</span>
+            <span>Last Updated: Feb 21, 2026</span>
+        </footer>
 
     </main>
 

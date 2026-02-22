@@ -11,7 +11,7 @@
 
  ![Sprint 2 First Draft](../../assets/Sprint-2-firstDraft.png)
 
-**Feedback** 
+### Feedback
     - **Typography**: Supporting text sucha as, project titles and metadata can be made more prominent to align with the typography requirement. 
     - **12-column grid**:Good
     -**Non-goals**:Good
