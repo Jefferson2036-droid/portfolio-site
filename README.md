@@ -1,6 +1,8 @@
 # portfolio-site
 ## Spec driven portfolio project for class IS117
 
+### Link to website: https://jefferson2036-droid.github.io/portfolio-site/
+
 ### Reflection 
 
 The first step I took when creating my portfolio was research. I told Gemini that I was making a portfolio site and that I needed its help as my designer. Throughout this step, we identified the requirements needed to create a solid portfolio. I explained to Gemini that I was an aspiring Business Analyst, so we had to tailor the site for a recruiter in that industry. From there, we determined the style we were going for. I suggested the Swiss style because it is a clean and professional format. We then decided to use HTML and CSS/Tailwind because it was simple and easily deployable. I asked Gemini to create a project proposal describing what we were making and what it should include. We then worked on the specifications that described exactly how we were building the site. Once the planning phase was complete, we moved on to creating the sprints. Each sprint described the goals, feedback received from the AI, the changes applied, and documentation (pictures). After each sprint was completed, it was pushed to GitHub.
